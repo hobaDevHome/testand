@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"index_atlas_1", frames: [[505,212,16,26],[784,309,105,53],[26,536,23,35],[837,537,20,35],[51,536,23,35],[1002,102,22,35],[288,537,22,35],[789,537,22,35],[813,537,22,35],[859,537,20,35],[155,536,23,35],[180,536,23,35],[0,536,24,35],[205,536,23,35],[985,352,33,116],[881,537,20,29],[425,538,20,29],[447,538,20,29],[469,538,20,29],[491,538,20,29],[670,543,20,29],[692,543,20,29],[312,545,20,29],[863,506,55,29],[294,212,209,35],[797,506,64,29],[242,506,71,29],[334,545,20,29],[739,478,56,49],[0,470,108,33],[0,416,85,52],[379,147,143,63],[0,147,182,55],[0,0,216,55],[218,0,212,55],[350,406,87,55],[851,0,173,55],[531,498,56,49],[891,309,125,41],[157,204,25,43],[157,249,25,43],[958,409,25,43],[981,57,37,43],[924,470,85,41],[174,422,105,38],[577,318,135,38],[174,462,89,41],[644,275,138,41],[157,303,138,41],[525,415,108,41],[274,349,125,41],[398,515,25,43],[589,529,25,43],[616,529,25,43],[826,421,37,43],[356,472,85,41],[525,458,105,38],[0,326,135,38],[265,463,89,41],[297,306,138,41],[437,306,138,41],[635,415,108,41],[745,421,79,55],[891,352,92,55],[496,358,92,55],[401,349,93,55],[872,409,84,55],[419,249,36,18],[0,386,173,28],[457,249,36,18],[643,529,25,43],[735,529,25,43],[762,529,25,43],[714,318,60,38],[632,458,105,38],[137,346,135,38],[634,196,74,38],[443,498,86,38],[826,466,96,38],[175,392,173,28],[419,277,223,27],[683,498,50,43],[0,204,103,66],[294,249,123,52],[0,272,99,52],[505,240,15,25],[87,416,85,52],[1003,513,19,28],[647,0,202,55],[432,0,213,53],[771,57,208,52],[524,147,189,47],[184,147,193,48],[105,204,50,114],[949,241,66,66],[844,241,103,66],[590,358,92,55],[684,358,92,55],[778,364,92,55],[439,415,84,55],[784,275,58,29],[0,505,91,29],[589,498,92,29],[166,505,74,29],[230,537,27,29],[259,537,27,29],[513,549,20,29],[535,549,20,29],[557,549,20,29],[961,550,20,29],[983,550,20,29],[634,238,208,35],[935,156,83,83],[281,422,61,37],[0,57,255,43],[257,57,255,43],[514,57,255,43],[0,102,255,43],[257,102,255,43],[514,102,242,43],[758,111,242,43],[961,513,40,35],[356,515,40,35],[315,506,39,37],[920,513,39,37],[93,534,29,34],[124,534,29,34],[110,470,54,62],[715,156,108,80],[524,196,108,79],[825,156,108,80],[184,197,108,79]]},
-		{name:"index_atlas_2", frames: [[445,1334,293,99],[617,721,413,104],[445,1435,293,99],[617,827,413,104],[445,1536,293,99],[1032,721,413,104],[1391,1706,233,90],[822,1275,601,55],[583,1047,727,55],[1032,827,668,55],[661,137,791,62],[822,1617,573,55],[822,1674,567,55],[183,1930,627,55],[1704,1959,260,55],[1619,1379,294,55],[1400,1535,445,55],[924,1218,664,55],[183,1816,637,55],[924,1161,668,55],[583,1104,717,55],[183,1873,632,55],[0,1987,790,34],[635,664,812,55],[1602,1436,288,55],[1398,1592,411,55],[1626,1763,364,55],[1626,1706,366,55],[1447,737,269,55],[1619,1265,314,55],[817,1902,552,55],[822,1560,574,55],[1382,1845,486,55],[1397,1649,391,55],[822,1731,560,55],[822,1503,576,55],[1302,1104,381,55],[822,1332,593,55],[822,1845,558,55],[822,1389,584,55],[812,1959,551,55],[1619,1208,357,55],[635,607,829,55],[1371,1902,515,55],[183,1656,306,158],[1619,1322,307,55],[822,1446,583,55],[661,379,874,55],[661,201,791,62],[0,0,822,113],[0,1656,181,273],[1811,1592,180,74],[436,700,179,336],[0,1334,443,159],[0,1495,443,159],[0,700,434,183],[0,885,434,183],[0,420,633,138],[0,560,633,138],[824,0,659,135],[0,283,659,135],[0,1070,581,130],[0,1202,581,130],[822,1788,560,55],[661,265,880,55],[635,550,849,55],[491,1637,246,103],[617,990,757,55],[635,436,874,55],[635,493,855,55],[617,933,769,55],[661,322,875,55],[491,1742,244,60],[583,1161,339,109],[0,115,540,166],[740,1272,62,446],[1882,114,62,446],[1946,114,62,446],[1727,737,62,446],[1425,1275,192,128],[1928,1322,120,120],[1408,1405,192,128],[1365,1959,337,87],[1485,114,337,87],[1388,884,337,87],[1388,973,337,87],[1543,203,337,87],[1543,292,337,87],[1825,562,192,128],[1537,381,337,87],[1511,470,337,87],[1888,1820,120,120],[1486,559,337,87],[1466,648,337,87],[1805,692,192,127],[1791,821,192,127],[1791,950,192,127],[1791,1079,192,127],[1485,0,510,112]]},
+		{name:"index_atlas_2", frames: [[445,1334,293,99],[617,721,413,104],[445,1435,293,99],[617,827,413,104],[445,1536,293,99],[1032,721,413,104],[1391,1706,233,90],[822,1275,601,55],[583,1047,727,55],[1032,827,668,55],[661,137,791,62],[822,1617,573,55],[822,1674,567,55],[183,1930,627,55],[1704,1959,260,55],[1619,1379,294,55],[1400,1535,445,55],[923,1218,664,55],[183,1816,637,55],[923,1161,668,55],[583,1104,717,55],[183,1873,632,55],[0,1987,790,34],[635,664,812,55],[1602,1436,288,55],[1398,1592,411,55],[1626,1763,364,55],[1626,1706,366,55],[1447,737,269,55],[1619,1265,314,55],[817,1902,552,55],[822,1560,574,55],[1382,1845,486,55],[1397,1649,391,55],[822,1731,560,55],[822,1503,576,55],[1302,1104,381,55],[822,1332,593,55],[822,1845,558,55],[822,1389,584,55],[812,1959,551,55],[1619,1208,357,55],[635,607,829,55],[1371,1902,515,55],[183,1656,306,158],[1619,1322,307,55],[822,1446,583,55],[661,379,874,55],[661,201,791,62],[0,0,822,113],[0,1656,181,273],[1811,1592,180,74],[436,700,179,336],[0,1334,443,159],[0,1495,443,159],[0,700,434,183],[0,885,434,183],[0,420,633,138],[0,560,633,138],[824,0,659,135],[0,283,659,135],[0,1070,581,130],[0,1202,581,130],[822,1788,560,55],[661,265,880,55],[635,550,849,55],[491,1637,246,103],[617,990,757,55],[635,436,874,55],[635,493,855,55],[617,933,769,55],[661,322,875,55],[491,1742,244,60],[583,1161,338,109],[0,115,540,166],[740,1272,62,446],[1882,114,62,446],[1946,114,62,446],[1727,737,62,446],[1425,1275,192,128],[1928,1322,120,120],[1408,1405,192,128],[1365,1959,337,87],[1485,114,337,87],[1388,884,337,87],[1388,973,337,87],[1543,203,337,87],[1543,292,337,87],[1825,562,192,128],[1537,381,337,87],[1511,470,337,87],[1888,1820,120,120],[1486,559,337,87],[1466,648,337,87],[1805,692,192,127],[1791,821,192,127],[1791,950,192,127],[1791,1079,192,127],[1485,0,510,112]]},
 		{name:"index_atlas_3", frames: [[0,1535,638,156],[718,1732,712,140],[770,717,1083,110],[676,1118,352,335],[1030,1118,352,335],[0,189,801,166],[770,829,1083,110],[0,0,735,187],[737,0,735,187],[923,557,768,158],[0,697,768,158],[0,1874,728,135],[730,1874,728,135],[1384,1342,389,273],[1460,1732,352,269],[675,1455,389,273],[0,357,801,166],[0,1730,716,140],[0,557,921,138],[803,416,921,139],[803,189,491,222],[1384,1118,491,222],[0,857,680,175],[682,941,680,175],[0,1211,673,160],[0,1373,673,160],[1364,941,674,175],[0,1034,674,175],[1066,1617,922,113],[1474,0,327,414]]},
 		{name:"index_atlas_4", frames: [[1068,1104,518,319],[1068,1425,803,175],[1068,1602,803,175],[0,1840,951,189],[953,1840,951,189],[0,0,532,366],[534,0,532,366],[1068,0,532,366],[0,368,532,366],[0,736,532,366],[0,1104,532,366],[0,1472,532,366],[534,368,532,366],[1068,368,532,366],[534,736,532,366],[1602,0,368,466],[1602,468,360,456],[1602,926,333,422],[1068,736,532,366],[534,1104,532,366],[534,1472,532,366]]},
 		{name:"index_atlas_5", frames: [[0,0,639,380],[0,382,1019,223],[1021,382,1019,223],[0,1038,1006,204],[0,832,1007,204],[1282,0,532,366],[1444,607,532,366],[0,1447,532,366],[534,1447,532,366],[1068,1346,532,366],[1021,607,421,534],[1008,1143,993,201],[0,1244,993,201],[0,607,1019,223],[641,0,639,380]]},
@@ -53,7 +53,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_879 = function() {
+(lib.CachedBmp_901 = function() {
 	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -67,7 +67,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_878 = function() {
+(lib.CachedBmp_900 = function() {
 	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -81,7 +81,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_877 = function() {
+(lib.CachedBmp_899 = function() {
 	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
@@ -130,7 +130,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_876 = function() {
+(lib.CachedBmp_898 = function() {
 	this.initialize(ss["index_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -221,14 +221,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_875 = function() {
+(lib.CachedBmp_897 = function() {
 	this.initialize(ss["index_atlas_6"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_874 = function() {
+(lib.CachedBmp_896 = function() {
 	this.initialize(ss["index_atlas_6"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -242,7 +242,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_873 = function() {
+(lib.CachedBmp_895 = function() {
 	this.initialize(ss["index_atlas_6"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -340,7 +340,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_872 = function() {
+(lib.CachedBmp_894 = function() {
 	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -417,7 +417,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_871 = function() {
+(lib.CachedBmp_893 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
@@ -655,7 +655,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_870 = function() {
+(lib.CachedBmp_892 = function() {
 	this.initialize(ss["index_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -1859,7 +1859,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_869 = function() {
+(lib.CachedBmp_891 = function() {
 	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
@@ -2385,7 +2385,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_867();
 	this.instance.setTransform(14.2,6.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_879();
+	this.instance_1 = new lib.CachedBmp_901();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -2411,7 +2411,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_865();
 	this.instance.setTransform(14.2,6.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_878();
+	this.instance_1 = new lib.CachedBmp_900();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -2437,7 +2437,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_863();
 	this.instance.setTransform(14.2,6.25,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_877();
+	this.instance_1 = new lib.CachedBmp_899();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -2684,7 +2684,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_871();
+	this.instance = new lib.CachedBmp_893();
 	this.instance.setTransform(2.2,6.25,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_813();
@@ -2716,7 +2716,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_781();
 	this.instance.setTransform(84.05,11.2,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_870();
+	this.instance_1 = new lib.CachedBmp_892();
 	this.instance_1.setTransform(0,3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -13128,7 +13128,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.ClipGroup_14();
 	this.instance.setTransform(-201.25,0,1,1,0,0,0,204.8,124.6);
 
-	this.instance_1 = new lib.CachedBmp_876();
+	this.instance_1 = new lib.CachedBmp_898();
 	this.instance_1.setTransform(-327.15,-72.8,0.5,0.5);
 
 	this.instance_2 = new lib.CachedBmp_854();
@@ -13167,7 +13167,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_13 = new lib.CachedBmp_843();
 	this.instance_13.setTransform(-388.1,76.45,0.5,0.5);
 
-	this.instance_14 = new lib.CachedBmp_875();
+	this.instance_14 = new lib.CachedBmp_897();
 	this.instance_14.setTransform(-402.25,-119.85,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -21795,13 +21795,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_17.setTransform(-1173.15,25.6,0.0342,0.0447,0,0,0,87.8,49.2);
 	this.instance_17._off = true;
 
-	this.instance_18 = new lib.CachedBmp_874();
+	this.instance_18 = new lib.CachedBmp_896();
 	this.instance_18.setTransform(-953.8,29.95,0.5,0.5);
 
 	this.instance_19 = new lib.CachedBmp_840();
 	this.instance_19.setTransform(-624.75,32.4,0.5,0.5);
 
-	this.instance_20 = new lib.CachedBmp_873();
+	this.instance_20 = new lib.CachedBmp_895();
 	this.instance_20.setTransform(-953.8,29.85,0.5,0.5);
 
 	this.instance_21 = new lib.CachedBmp_838();
@@ -21843,7 +21843,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_33 = new lib.CachedBmp_826();
 	this.instance_33.setTransform(-942,187.7,0.5,0.5);
 
-	this.instance_34 = new lib.CachedBmp_872();
+	this.instance_34 = new lib.CachedBmp_894();
 	this.instance_34.setTransform(-951.75,31.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_17}]},840).to({state:[{t:this.instance_17}]},17).to({state:[{t:this.instance_34},{t:this.instance_33},{t:this.instance_32},{t:this.instance_31},{t:this.instance_30},{t:this.instance_29},{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22},{t:this.instance_21},{t:this.instance_20},{t:this.instance_19},{t:this.instance_18}]},561).to({state:[]},172).to({state:[]},902).wait(2));
@@ -21932,9 +21932,9 @@ if (reversed == null) { reversed = false; }
 		
 		// translate text
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick1.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick1() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.call(this);
@@ -22000,10 +22000,11 @@ if (reversed == null) { reversed = false; }
 		
 		
 		
-		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
 		
-		function handleTranslateClick() {
+		gameStage.translate_btn.removeAllEventListeners();
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick2.bind(this));
+		
+		function handleTranslateClick2() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22036,9 +22037,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick3.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick3() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22073,9 +22074,9 @@ if (reversed == null) { reversed = false; }
 		// translate text
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick4.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick4() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22098,9 +22099,9 @@ if (reversed == null) { reversed = false; }
 		// translate text
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick5.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick5() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22131,9 +22132,9 @@ if (reversed == null) { reversed = false; }
 		// translate text
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick6.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick6() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22166,9 +22167,9 @@ if (reversed == null) { reversed = false; }
 		// translate text
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick7.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick7() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22197,9 +22198,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick8.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick8() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22228,9 +22229,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick9.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick9() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22258,9 +22259,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick10.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick10() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22289,9 +22290,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick11.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick11() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22317,9 +22318,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick12.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick12() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22347,9 +22348,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick13.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick13() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this, gameStage)
@@ -22372,9 +22373,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick14.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick14() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this)
@@ -22409,9 +22410,9 @@ if (reversed == null) { reversed = false; }
 		gameStage.animation_movieclip.gotoAndPlay("frame14");
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick15.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick15() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this)
@@ -22475,9 +22476,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick16.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick16() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this)
@@ -22538,9 +22539,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick17.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick17() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this)
@@ -22606,9 +22607,9 @@ if (reversed == null) { reversed = false; }
 		
 		
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick18.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick18() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this)
@@ -22692,9 +22693,9 @@ if (reversed == null) { reversed = false; }
 		
 		// translate text
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick19.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick19() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this)
@@ -22745,9 +22746,9 @@ if (reversed == null) { reversed = false; }
 		showText([gameStage.text20_en, gameStage.text20_ar, gameStage.text26_en, gameStage.text26_ar])
 		// translate text
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick20.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick20() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this)
@@ -22802,9 +22803,9 @@ if (reversed == null) { reversed = false; }
 		//hideText([gameStage.text24_en, gameStage.text24_ar])
 		// translate text
 		gameStage.translate_btn.removeAllEventListeners();
-		gameStage.translate_btn.addEventListener('click', handleTranslateClick.bind(this));
+		gameStage.translate_btn.addEventListener('click', handleTranslateClick21.bind(this));
 		
-		function handleTranslateClick() {
+		function handleTranslateClick21() {
 		    translateText.call(this, textElements);
 		    ChangeLangIcon.call(this);
 		    PlaySounds.bind(this)
@@ -23305,7 +23306,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_26 = new lib.CachedBmp_588();
 	this.instance_26.setTransform(469.8,258.55,0.5,0.5);
 
-	this.instance_27 = new lib.CachedBmp_869();
+	this.instance_27 = new lib.CachedBmp_891();
 	this.instance_27.setTransform(372,257.45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_3}]},16).to({state:[{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22},{t:this.instance_21},{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4}]},1).to({state:[]},1).wait(3));
@@ -23468,19 +23469,19 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png?1748771646727", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1748771646729", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png?1748771646729", id:"index_atlas_3"},
-		{src:"images/index_atlas_4.png?1748771646730", id:"index_atlas_4"},
-		{src:"images/index_atlas_5.png?1748771646730", id:"index_atlas_5"},
-		{src:"images/index_atlas_6.png?1748771646730", id:"index_atlas_6"},
-		{src:"images/index_atlas_7.png?1748771646730", id:"index_atlas_7"},
-		{src:"images/index_atlas_8.png?1748771646730", id:"index_atlas_8"},
-		{src:"images/index_atlas_9.png?1748771646731", id:"index_atlas_9"},
-		{src:"images/index_atlas_10.png?1748771646731", id:"index_atlas_10"},
-		{src:"images/index_atlas_11.png?1748771646731", id:"index_atlas_11"},
-		{src:"images/index_atlas_12.png?1748771646731", id:"index_atlas_12"},
-		{src:"images/index_atlas_13.png?1748771646731", id:"index_atlas_13"}
+		{src:"images/index_atlas_1.png?1748772282735", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1748772282736", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png?1748772282737", id:"index_atlas_3"},
+		{src:"images/index_atlas_4.png?1748772282737", id:"index_atlas_4"},
+		{src:"images/index_atlas_5.png?1748772282738", id:"index_atlas_5"},
+		{src:"images/index_atlas_6.png?1748772282738", id:"index_atlas_6"},
+		{src:"images/index_atlas_7.png?1748772282738", id:"index_atlas_7"},
+		{src:"images/index_atlas_8.png?1748772282738", id:"index_atlas_8"},
+		{src:"images/index_atlas_9.png?1748772282738", id:"index_atlas_9"},
+		{src:"images/index_atlas_10.png?1748772282738", id:"index_atlas_10"},
+		{src:"images/index_atlas_11.png?1748772282738", id:"index_atlas_11"},
+		{src:"images/index_atlas_12.png?1748772282739", id:"index_atlas_12"},
+		{src:"images/index_atlas_13.png?1748772282739", id:"index_atlas_13"}
 	],
 	preloads: []
 };
