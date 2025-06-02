@@ -22,7 +22,7 @@
   }
 </style>
 <script src="libs/1.0.0/createjs.min.js"></script>
-<script src="index.js?1748784320330"></script>
+<script src="index.js?1748848230424"></script>
 <script>
 // Global Scripts
 	window.addEventListener("DOMContentLoaded", function () {
@@ -55,7 +55,6 @@
 		}
 });
 window.addEventListener('blur', function() {
-    console.log('Browser window lost focus');
    if(soundOn == true)
 		{			
 		createjs.Sound.masterMute = true;
@@ -65,7 +64,6 @@ window.addEventListener('blur', function() {
 		}	
 });
 window.addEventListener('focus', function() {
-    console.log('Browser window gained focus');
     if(soundOn == true)
 			 {
 			createjs.Sound.masterMute = false;
@@ -97,10 +95,6 @@ meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-s
 			this.gotoAndStop(this.currentFrame - 1)
 		}, 200)
 	}
-/*
-createjs.Touch.enable(stage);
-stage.mouseChildren = true;
-*/
 var textElements = []
 var enLang = sessionStorage.getItem('enLang') === 'ar' ? false : true
 var muteAction = false;
@@ -158,17 +152,23 @@ function hideElm(elements = []) {
 	}
 	// change the visibliliy tof text elements according to enLang settings
 	function translateText(elements = []) {
+   console.log("enLang: ", enLang)
         enLang = !enLang;
         sessionStorage.setItem('enLang', enLang ? 'en' : 'ar');
         for (let i = 0; i < elements.length; i++) {
             elements[i].visible = !elements[i].visible;
         }
-	if (enLang) {
+		if (enLang) {
 			this.translate_btn.gotoAndStop(0)
 		} else {
 			this.translate_btn.gotoAndStop(1)
 		}
-	PlaySounds()
+		if (!enLang) {
+			this.langStatus_txt.text = "English";
+		} else {
+			this.langStatus_txt.text = "Arabic";
+		}
+		PlaySounds()
 }
 createjs.Sound.alternateExtensions = ["mp3"];
 createjs.Sound.registerPlugins([createjs.WebAudioPlugin, createjs.HTMLAudioPlugin]);
@@ -177,8 +177,7 @@ if (createjs.Sound.activePlugin.context.state === 'suspended') {
     }
 //Play soound
 function PlaySounds(timeline = null) {
-	console.log("timeline" , timeline)
-	console.log("out currentSound: ", currentSound)
+	console.log("currentSound: ", currentSound)
 		var lan = "";
 		if (enLang) {
 			lan = "en"
@@ -188,10 +187,8 @@ function PlaySounds(timeline = null) {
 		createjs.Sound.stop();
 		if (changeSound) {
 			createjs.Sound.play(currentSound + "_" + lan).on("complete", function () {
-				if (timeline) {
-					dimmed = false;
-					timeline.gotoAndStop(timeline.currentFrame + 1)
-					console.log("sound finished ", dimmed)
+				if (timeline) {					
+					timeline.gotoAndStop(timeline.currentFrame + 1)					
 				}
 			})
 		}
@@ -286,6 +283,6 @@ function handleComplete(evt,comp) {
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1024px; height:576px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1748784320330 style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1748848230425 style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>
