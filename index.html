@@ -22,7 +22,7 @@
   }
 </style>
 <script src="libs/1.0.0/createjs.min.js"></script>
-<script src="index.js?1748956727733"></script>
+<script src="index.js?1749022533463"></script>
 <script>
 // Global Scripts
 	window.addEventListener("DOMContentLoaded", function () {
@@ -113,6 +113,7 @@ var changeSound = true;
 var score = 0;
 var limit1 = 1;
 var limit2 = 4 ;
+var langCounter = 0
 var f;
 var retakeAction = true
 function correctAnsHandler(i) {
@@ -158,6 +159,7 @@ function hideElm(elements = []) {
 	}
 	// change the visibliliy tof text elements according to enLang settings
 function translateText(elements = [], timeline = null) {
+		langCounter++;
         enLang = !enLang;		
         sessionStorage.setItem('enLang', enLang ? 'en' : 'ar');
         for (let i = 0; i < elements.length; i++) {
@@ -169,11 +171,9 @@ function translateText(elements = [], timeline = null) {
 			this.translate_btn.gotoAndStop(1)
 		}	
 		if (enLang) {
-			this.lang1.text = "english"
-			this.lang2.text = "english"
+			this.lang1.text = "en : " + langCounter
 		} else {
-			this.lang1.text = "arabic"
-			this.lang2.text = "arabic"
+			this.lang1.text = "ar : " + langCounter
 		}	
 		////
 		var lan2 = "";
@@ -305,6 +305,6 @@ function handleComplete(evt,comp) {
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1024px; height:576px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1748956727733 style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1749022533464 style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>
